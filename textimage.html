@@ -1,0 +1,232 @@
+<html>
+        
+        <head>
+                <title>Image Text</title>
+        </head>
+
+        <body class="main" id="m">
+    	   <button onclick="show()">SHOW</button>
+            <br>
+    	   <textarea rows="5" cols="55" class="dv" id="d" onkeydown="keyCode(event)" placeholder="Your Text Here..."></textarea>
+            <br>
+            <br>
+    	   <div id="img" class="i" id="p">
+
+    	   </div>
+    	
+    	
+
+        <style type="text/css">
+            .dv{
+    	       display: none;
+    	       border: solid;
+    	       font-size: 32px;
+    	       border-color: black;
+    	       text-align: left;
+               margin-left: 25px; 
+                }
+            .i{
+                display: none;
+            	border: double;
+            	border-color: white;
+            	height: 400px;
+            	width: 1000px;
+                background-color: black;
+                margin-left: 25px; 
+                }
+            button{
+            	color: blue;
+            	 padding: 8px 25px;
+                text-align: center;
+                text-decoration: underline;
+                display: block;
+                border: solid;
+                font-size: 25px;
+                margin: 8px 25px;
+                cursor: pointer;
+                background-color: aqua;
+                border-radius: 35%;
+                width: 150px;
+                height: 75px;
+            }
+            .main{
+                background-color: tomato;
+                border-style: solid;
+                border width: 15px;
+                border-color: black;
+                height: 750px;
+                width: 1200px;
+            }
+        </style>
+        <script type="text/javascript">
+            var tb= document.getElementById("d")
+            var im= document.getElementById("img")
+            var htm= document.getElementById("m")
+            function show(){
+            tb.style.display="inline-block";
+            im.style.display="inline-block";
+            document.getElementById('d').value= "";
+            }
+            function keyCode(event){
+             
+                var x = event.keyCode;
+                    if (x == 65) {
+                         document.getElementById("img").innerHTML += '<img src="a.png" width="50px" height= "50px">'
+                    }
+                    if (x == 66) {
+                         document.getElementById("img").innerHTML += '<img src="b.jpg" width="50px" height= "50px">'
+                    }
+                    if (x == 67) {
+                        document.getElementById("img").innerHTML += '<img src="c.jpg" width="50px" height= "50px">'
+                    }
+                    if (x == 68) {
+                       document.getElementById("img").innerHTML += '<img src="d.png" width="50px" height= "50px">'
+                    }
+                    if (x == 69) {
+                        document.getElementById("img").innerHTML += '<img src="e.jpg" width="50px" height= "50px">'
+                    }
+                    if (x == 70) {
+                        document.getElementById("img").innerHTML+='<img src="f.jpg" width="50px" height= "50px">'
+                    }
+                    if (x == 71) {
+                        document.getElementById("img").innerHTML+='<img src="g.png" width="50px" height= "50px">'
+                    }
+                    if (x == 72) {
+                        document.getElementById("img").innerHTML+='<img src="h.jpg" width="50px" height= "50px">'
+                    }
+                    if (x == 73) {
+                        document.getElementById("img").innerHTML+='<img src="i.jpg" width="50px" height= "50px">'
+                    }
+                    if (x == 74) {
+                        document.getElementById("img").innerHTML+='<img src="j.png" width="50px" height= "50px">'
+                    }
+                    if (x == 75) {
+                        document.getElementById("img").innerHTML+='<img src="k.jpg" width="50px" height= "50px">'
+                    }
+                    if (x == 76) {
+                        document.getElementById("img").innerHTML+='<img src="l.png" width="50px" height= "50px">'
+                    }
+                    if (x == 77) {
+                        document.getElementById("img").innerHTML+='<img src="m.png" width="50px" height= "50px">'
+                    }
+                    if (x == 78) {
+                        document.getElementById("img").innerHTML+='<img src="n.png" width="50px" height= "50px">'
+                    }
+                    if (x == 79) {
+                        document.getElementById("img").innerHTML+='<img src="o.jpg" width="50px" height= "50px">'
+                    }
+                    if (x == 80) {
+                        document.getElementById("img").innerHTML+='<img src="p.png" width="50px" height= "50px">'
+                    }
+                    if (x == 81) {
+                        document.getElementById("img").innerHTML+='<img src="q.png" width="50px" height= "50px">'
+                    }
+                    if (x == 82) {
+                        document.getElementById("img").innerHTML+='<img src="r.jpg" width="50px" height= "50px">'
+                    }
+                    if (x == 83) {
+                        document.getElementById("img").innerHTML+='<img src="s.jpg" width="50px" height= "50px">'
+                    }
+                    if (x == 84) {
+                        document.getElementById("img").innerHTML+='<img src="t.jpg" width="50px" height= "50px">'
+                    }
+                    if (x == 85) {
+                        document.getElementById("img").innerHTML+='<img src="u.png" width="50px" height= "50px">'
+                    }
+                    if (x == 86) {
+                        document.getElementById("img").innerHTML+='<img src="v.jpg" width="50px" height= "50px">'
+                    }
+                    if (x == 87) {
+                        document.getElementById("img").innerHTML+='<img src="w.png" width="50px" height= "50px">'
+                    }
+                    if (x == 88) {
+                        document.getElementById("img").innerHTML+='<img src="x.png" width="50px" height= "50px">'
+                    }
+                    if (x == 89) {
+                        document.getElementById("img").innerHTML+='<img src="y.jpg" width="50px" height= "50px">'
+                    }
+                    if (x == 90) {
+                        document.getElementById("img").innerHTML+='<img src="z.jpg" width="50px" height= "50px">'
+                    }
+                    if (x == 32) {
+                        document.getElementById("img").innerHTML+='<img src="space.png" width="50px" height= "50px">'
+                    }
+                    if (x == 96) {
+                        document.getElementById("img").innerHTML+='<img src="0.jpg" width="50px" height= "50px">'
+                    }
+                    if (x == 97) {
+                        document.getElementById("img").innerHTML+='<img src="1.jpg" width="50px" height= "50px">'
+                    }
+                    if (x == 98) {
+                        document.getElementById("img").innerHTML+='<img src="2.jpg" width="50px" height= "50px">'
+                    }
+                    if (x == 99) {
+                        document.getElementById("img").innerHTML+='<img src="3.jpg" width="50px" height= "50px">'
+                    }
+                    if (x == 100) {
+                        document.getElementById("img").innerHTML+='<img src="4.jpg" width="50px" height= "50px">'
+                    }
+                    if (x == 101) {
+                        document.getElementById("img").innerHTML+='<img src="5.png" width="50px" height= "50px">'
+                    }
+                    if (x == 102) {
+                        document.getElementById("img").innerHTML+='<img src="6.jpg" width="50px" height= "50px">'
+                    }
+                    if (x == 103) {
+                        document.getElementById("img").innerHTML+='<img src="7.jpg" width="50px" height= "50px">'
+                    }
+                    if (x == 104) {
+                        document.getElementById("img").innerHTML+='<img src="8.jpg" width="50px" height= "50px">'
+                    }
+                    if (x == 105) {
+                        document.getElementById("img").innerHTML+='<img src="9.png" width="50px" height= "50px">'
+                    }
+                    if (x == 48) {
+                        document.getElementById("img").innerHTML+='<img src="0.jpg" width="50px" height= "50px">'
+                    }
+                    if (x == 49) {
+                        document.getElementById("img").innerHTML+='<img src="1.jpg" width="50px" height= "50px">'
+                    }
+                    if (x == 50) {
+                        document.getElementById("img").innerHTML+='<img src="2.jpg" width="50px" height= "50px">'
+                    }
+                    if (x == 51) {
+                        document.getElementById("img").innerHTML+='<img src="3.jpg" width="50px" height= "50px">'
+                    }
+                    if (x == 52) {
+                        document.getElementById("img").innerHTML+='<img src="4.jpg" width="50px" height= "50px">'
+                    }
+                    if (x == 53) {
+                        document.getElementById("img").innerHTML+='<img src="5.png" width="50px" height= "50px">'
+                    }
+                    if (x == 54) {
+                        document.getElementById("img").innerHTML+='<img src="6.jpg" width="50px" height= "50px">'
+                    }
+                    if (x == 55) {
+                        document.getElementById("img").innerHTML+='<img src="7.jpg" width="50px" height= "50px">'
+                    }
+                    if (x == 56) {
+                        document.getElementById("img").innerHTML+='<img src="8.jpg" width="50px" height= "50px">'
+                    }
+                    if (x == 57) {
+                        document.getElementById("img").innerHTML+='<img src="9.png" width="50px" height= "50px">'
+                    }
+                     if (x == 8) {
+                        document.getElementById("img").innerHTML = im.innerHTML.substr(0, im.innerHTML.length - 1)
+                    }
+                     if (document.getElementsByTagName('img').length > 20) {
+                var len = document.getElementsByTagName('img').length
+                for (var i=0; i<len; i++) {
+                    document.getElementsByTagName('img')[i].style.width="30px";
+                    document.getElementsByTagName('img')[i].style.height="30px";
+                    }
+                }
+                      if (x == 190) {
+                        document.getElementById("img").innerHTML+='<img src="point.png" width="50px" height= "50px">'
+                    }
+
+            }
+        </script>
+        </body>
+
+</html>
